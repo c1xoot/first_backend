@@ -8,6 +8,6 @@ user_table = [
 ]
 
 adress_table = [
-    Adress(city="Saint-Petersburg", district="Nevskiy"),
-    Adress(city="Velsk", district="Lesobaza")
+    Adress(city_name="Saint-Petersburg", district_name="Nevskiy",years="2"),
+    Adress(city_name="Velsk", district_name="Lesobaza",years="10")
 ]
