@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 from crud import *
-from data_base import fake_database
+from data_base import user_table
 from schema import User
 
 router = APIRouter(prefix="/user")
@@ -21,7 +21,7 @@ def get_user_by_name(name: str):
 
 @router.delete("/delite_users")
 def delite_user_by_name(name: str):
-     fake_database.remove(get_by_name(name))
+     user_table.remove(get_by_name(name))
 
 
 @router.put("/update_last_name/{user_name}")
