@@ -1,5 +1,5 @@
-from schema import User
-from schema import Adress
+from shemas.user import User
+from shemas.adress import Adress
 
 user_table = [
     User(first_name="user1", last_name="last_name1", age=2135),

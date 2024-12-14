@@ -1,7 +1,6 @@
 from fastapi import APIRouter
 from crud import *
 from data_base import user_table
-from schema import User
 
 router = APIRouter(prefix="/user")
 

@@ -1,5 +1,5 @@
 from data_base import user_table
-from schema import User
+from shemas.user import User
 
 def get_all() -> list[User]:
     return user_table
