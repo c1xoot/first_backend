@@ -6,7 +6,7 @@ class Base(DeclarativeBase): pass
 
 
 class Person(Base):
-    __tablename__ = "people"
+    __tablename__ = "user"
 
     id = Column(Integer, primary_key=True, index=True)
     first_name = Column(String)
